@@ -78,7 +78,7 @@ function ServicoUI_UX() {
 
     // useRef importado:
     const carrossel = useRef(null);
-    // 
+    
     const ArrowLeftClick = (e) => {
         e.preventDefault();
         carrossel.current.scrollLeft -= carrossel.current.offsetWidth;
@@ -119,7 +119,7 @@ function ServicoUI_UX() {
                     
                 </div>
 
-                {/* Visibilidade dos itens só com o cdn Font Awesome no index.html */}
+                
             <div className="SetasCarrossel">
     
                     <button onClick={ArrowLeftClick} className='ButtonSetaEsquerda'><img src={SetaEsquerda} alt="" className='ImgSetaEsquerda' /></button>
@@ -129,8 +129,6 @@ function ServicoUI_UX() {
             </div>
 
 
-            
-           {/* <img src="../../assets/img/img-design-produto-svg.svg" alt="" /> */}
         </section>
 
     )

@@ -1,5 +1,4 @@
 
-// mudar gradiente dos cards, tres formatos com {containerImg}
 
 import './CardsTopicosUI_UX.css'
 

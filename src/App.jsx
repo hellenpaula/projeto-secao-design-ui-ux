@@ -9,7 +9,6 @@ import SectionUI_UX from './components/Section_Servico_UI_UX/Section_Servico_UI_
 
 function App() {
   const [count, setCount] = useState(0)
-  // const carrossel = useRef(null);
 
   return (
    <div>
