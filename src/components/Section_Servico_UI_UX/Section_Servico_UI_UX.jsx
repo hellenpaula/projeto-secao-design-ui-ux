@@ -101,6 +101,11 @@ function ServicoUI_UX() {
                     Do conceito à entrega, cada detalhe é pensado para encantar o usuário 
                     e gerar resultados reais para o seu negócio.
                 </p>
+
+                <button className="ButtonSaibaMais">
+                    Acessar Serviço
+                </button>
+
             </div>
             {/* ref com useRef importado */}
                 <div className="ContainerCards" ref={carrossel} >
@@ -128,6 +133,8 @@ function ServicoUI_UX() {
                     <button onClick={ArrowRightClick}className='ButtonSetaDireita'><img src={SetaDireita} alt="" className='ImgSetaDireita' /></button>
             </div>
 
+
+            
 
         </section>
 

@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Miranda+Sans:ital,wght@0,400..700;1,400..700&display=swap');
 
 .SectionUI_UX {
-    background-color: rgb(236, 236, 236);
+    background-color: #f4f7f6;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -30,6 +30,27 @@
     padding: 22px 0px 9px;
 }
 
+.ButtonSaibaMais {
+    background-color: #394d70;
+    color: white;
+    padding: 14px 35px;
+    margin: 37px 0px 0px;
+    border-radius: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    border: none;
+    transition:  0.4s ease;
+    box-shadow: 1px 1px 10px #0000003a;
+    font-weight: 500;
+
+    
+}
+
+.ButtonSaibaMais:hover {
+    background-color: #394d70e4;
+    transition:  0.4s ease ;
+}
+    
 .ContainerCards {
     display: flex;
     overflow-x: scroll;
